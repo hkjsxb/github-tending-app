@@ -11,7 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # 配置
-GITHUB_API_URL = "https://api-github-com.hkjsxb.com/search/repositories"
+GITHUB_API_URL = "https://api.github.com/search/repositories"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # 设置请求头，包含认证信息
